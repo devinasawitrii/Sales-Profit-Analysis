@@ -50,13 +50,13 @@ The query builds an analysis-ready table, `sales_profit_analysis`, in four steps
 3. Join orders, line items, and products with `INNER JOIN`.
 4. Round `sales` and `profit` to two decimal places.
 
-See [`sql/sales_profit_analysis.sql`](sql/sales_profit_analysis.sql).
+See [`sales_profit_analysis.sql`](sales_profit_analysis.sql).
 
 ### 2. Python (Google Colab)
 
 The notebook connects Colab to BigQuery, removes duplicate line items by `order_item_id`, exploratory data analysis,  and aggregates results by category, product, and month. It also produces bar charts of sales and profit by category.
 
-See [`notebooks/sales_profit_analysis.ipynb`](notebooks/sales_profit_analysis.ipynb).
+See [`sales_profit_analysis.ipynb`](sales_profit_analysis.ipynb).
 
 ## Dashboard Guide
 
