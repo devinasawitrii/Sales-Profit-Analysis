@@ -16,7 +16,7 @@ An end-to-end data analytics project examining twelve months of sales and profit
 
 ## Dataset
 
-- Source: [Indian E-Commerce Sales & Customer Analytics](https://www.kaggle.com/) (Kaggle, CC0 1.0)
+- Source: [Indian E-Commerce Sales & Customer Analytics](https://www.kaggle.com/datasets/shiyalkishan01/indian-e-commerce-sales-and-customer-analytics) (Kaggle, CC0 1.0)
 - Original scope: 100,000 orders, 25,000 customers, 550 products, 22 categories, 2023–2025
 - Tables used: `orders`, `order_items`, `products`
 
@@ -108,9 +108,7 @@ sales-profit-analysis-dashboard/
 ├── README.md
 ├── sales_profit_analysis.sql
 ├── sales_profit_analysis.ipynb
-├── images/
-   ├── dashboard_overview.png
-   └── dashboard_product_category.png
+├── Sales_Profit_Analysis_Dashboard.pdf
 ```
 
 ## Tech Stack
