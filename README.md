@@ -1,6 +1,6 @@
 # Sales & Profit Analysis Dashboard
 
-An end-to-end data analytics project examining twelve months of sales and profit performance for an e-commerce business. The workflow covers data modeling in **BigQuery (SQL)**, exploratory analysis in **Python (Google Colab)**, and an interactive dashboard in **Google Data Studio**.
+An end-to-end data analytics project examining twelve months of sales and profit performance for an e-commerce business. The workflow covers data modeling in **Google BigQuery (SQL)**, exploratory analysis in **Python (Google Colab)**, and an interactive dashboard in **Google Data Studio**.
 
 **Live dashboard:** [View on Google Data Studio](https://datastudio.google.com/u/0/reporting/757e8356-a055-45c9-b312-290c50ed1a4b/page/p_d54b3eh46d)
 **Static version**: [PDF](Sales_&_Profit_Analysis_Dashboard.pdf)
@@ -29,10 +29,10 @@ An end-to-end data analytics project examining twelve months of sales and profit
 ## Workflow
 
 ```
-Kaggle CSV → BigQuery → SQL (CTEs, joins, filters) → Google Colab (pandas, matplotlib) → Google Data Studio → Insights
+Kaggle CSV → Google BigQuery → SQL (CTEs, joins, filters) → Google Colab (pandas, matplotlib) → Google Data Studio → Insights
 ```
 
-### 1. SQL (BigQuery)
+### 1. SQL (Google BigQuery)
 
 The query builds an analysis-ready table, `sales_profit_analysis`, in four steps:
 
@@ -45,7 +45,7 @@ See [`sales_profit_analysis.sql`](sales_profit_analysis.sql).
 
 ### 2. Python (Google Colab)
 
-The notebook connects Colab to BigQuery, removes duplicate line items by `order_item_id`, exploratory data analysis,  and aggregates results by category, product, and month. It also produces bar charts of sales and profit by category.
+The notebook connects Colab to Google BigQuery, removes duplicate line items by `order_item_id`, exploratory data analysis,  and aggregates results by category, product, and month. It also produces bar charts of sales and profit by category.
 
 See [`sales_profit_analysis.ipynb`](sales_profit_analysis.ipynb).
 
@@ -113,5 +113,5 @@ sales-profit-analysis-dashboard/
 
 ## Tech Stack
 
-BigQuery · SQL · Python · Google Colab · Google Data Studio 
+Google BigQuery · SQL · Python · Google Colab · Google Data Studio 
 
