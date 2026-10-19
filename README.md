@@ -1,8 +1,8 @@
 # Sales & Profit Analysis Dashboard
 
-An end-to-end data analytics project examining twelve months of sales and profit performance for an e-commerce business. The workflow covers data modeling in **BigQuery (SQL)**, exploratory analysis in **Python (Google Colab)**, and an interactive dashboard in **Looker Studio**.
+An end-to-end data analytics project examining twelve months of sales and profit performance for an e-commerce business. The workflow covers data modeling in **BigQuery (SQL)**, exploratory analysis in **Python (Google Colab)**, and an interactive dashboard in **Google Data Studio**.
 
-**Live dashboard:** [View on Looker Studio](https://datastudio.google.com/u/0/reporting/757e8356-a055-45c9-b312-290c50ed1a4b/page/p_d54b3eh46d)
+**Live dashboard:** [View on Google Data Studio](https://datastudio.google.com/u/0/reporting/757e8356-a055-45c9-b312-290c50ed1a4b/page/p_d54b3eh46d)
 **Static version**: [PDF](Sales_&_Profit_Analysis_Dashboard.pdf)
 
 ---
@@ -29,7 +29,7 @@ An end-to-end data analytics project examining twelve months of sales and profit
 ## Workflow
 
 ```
-Kaggle CSV → BigQuery → SQL (CTEs, joins, filters) → Google Colab (pandas, matplotlib) → Looker Studio → Insights
+Kaggle CSV → BigQuery → SQL (CTEs, joins, filters) → Google Colab (pandas, matplotlib) → Google Data Studio → Insights
 ```
 
 ### 1. SQL (BigQuery)
@@ -113,5 +113,5 @@ sales-profit-analysis-dashboard/
 
 ## Tech Stack
 
-BigQuery · SQL · Python (pandas, matplotlib) · Google Colab · Looker Studio · GitHub
+BigQuery · SQL · Python · Google Colab · Google Data Studio 
 
